@@ -1,15 +1,16 @@
 
 ##Requirement
+-----
 pip install flask
 pip install peewee
 
 
 ##user.tsv
 
-#uid	name	price	class¥n
-001	apple	200	fruits¥n
-002	banana	300	fruits¥n
-003	cabbage	100	vegitables¥n
+#uid	name	price	class
+001	apple	200	fruits
+002	banana	300	fruits
+003	cabbage	100	vegitables
 
 
 ##import.py
