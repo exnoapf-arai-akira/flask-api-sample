@@ -17,7 +17,7 @@ class myProduct(peewee.Model):
 api = Flask(__name__)
 
 # set a action url
-@api.route('/getprice/<string:name>', methods=['GET']) 
+@api.route('/getprice/<string:name>', methods=['GET'])
 
 def get_price(name):
     try:
